@@ -8,7 +8,7 @@ export default function Home() {
     <main>
       <h1>Tarea: Conversor de Temperatura</h1>
 
-      {/* Enviamos el valor mediante props al componente independiente */}
+      {}
       <TemperatureConverter celsius={temperaturaInicial} />
     </main>
   );
