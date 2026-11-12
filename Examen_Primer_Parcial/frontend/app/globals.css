@@ -1,0 +1,17 @@
+.form-control:focus,
+.form-select:focus {
+  box-shadow: none !important;
+  border-color: #ced4da !important;
+  outline: none !important;
+}
+
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type='number'] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
